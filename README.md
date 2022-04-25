@@ -1,4 +1,4 @@
-# usefull_notes
+# useful_notes
 ###### Issue: project not imported well so that when u open the project on IDE the src folder not visible as java/src package   ##
 
 solution: the issue cause by that the .classpath has wrong values. use included fileIN ATTACHMENT folder to have better setting
