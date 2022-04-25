@@ -25,13 +25,13 @@ curl -XPOST "http://localhost:8080/api/events?title=First%20Event&date=2020-11-3
 
 
 
-########################################## generate self signed SSL using java Keytool #########################################################
+################ generate self signed SSL using java Keytool ##########################
 
 keytool -genkeypair -keyalg RSA -keysize 2048 -dname "cn=administrator, ou=Coherence, o=Oracle, c=US" -alias admin -keypass password -keystore /test/server.jks -storepass password -validity 180
 keytool -export -alias admin -storepass password -file server.cer -keystore server.jks
 keytool -importcert -trustcacerts -file server.cer
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ################################################### set Java trust store throught command ######################
 
