@@ -106,3 +106,8 @@ tnsping DB_Name
 2- extract folder, go to bin folder, go to lib, replace jar file "icu4j-3.4.4.jar" with "icu4j-68_2.jar" from https://github.com/unicode-org/icu/releases/tag/release-68-2
 3- and execute below commands
 encrypt.bat input="key_to_be_encrypted" password=password_encrypt_key ivGeneratorClassName=org.jasypt.iv.RandomIvGenerator algorithm="PBEWITHHMACSHA512ANDAES_128"
+ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
+ ###################################### Adding Code coverage for Eclipse/STS IDE ####################################
+ https://dzone.com/articles/java-code-coverage-in-eclipse
