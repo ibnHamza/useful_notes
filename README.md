@@ -55,6 +55,12 @@ z: zero-I/O mode which is used for scanning
 v: for verbose output
 w10: timeout wait seconds
 
+//Windows get processID running on specific port 
+netstat -ano | findstr :<PORT>
+
+//windows kill specific process
+taskkill /PID <PID> /F
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ######################################################## find PID of running process on port Linux #########
