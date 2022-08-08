@@ -118,5 +118,17 @@ encrypt.bat input="key_to_be_encrypted" password=password_encrypt_key ivGenerato
  
  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
  
- ###################################### Adding Code coverage for Eclipse/STS IDE ####################################
+ ################################### Adding Code coverage for Eclipse/STS IDE ####################################
  https://dzone.com/articles/java-code-coverage-in-eclipse
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
+ ################################### Adding SonarLint offline to IDE ####################################
+ 1- go to https://github.com/SonarSource/sonarlint-eclipse/releases
+ 2- get the last stable version of sonarLint version
+ 3- replace the VERSION in below link and paste it in your browser 
+ https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/org.sonarlint.eclipse.site-VERSION.zip
+ 4- go to your IDE, help->install new software-> add-> Archive-> 
+ 5- select the file u downloaded in step 3
+ 6 - add any name to your site
+ 7- follow the UI steps and select all availables options, click next till finished
+ 
