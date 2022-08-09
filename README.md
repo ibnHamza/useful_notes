@@ -21,6 +21,9 @@ java -jar app.jar --spring.profiles.active=dev
 ################################ using curl in windows #####################################
 curl -XPOST "http://localhost:8080/api/events?title=First%20Event&date=2020-11-30"
 
+//Call self signed endpoint
+curl -k -XGET "http://localhost:8080/api/events?title=First%20Event&date=2020-11-30"
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ######################################################## find default java GC ######################################
