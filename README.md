@@ -135,3 +135,12 @@ encrypt.bat input="key_to_be_encrypted" password=password_encrypt_key ivGenerato
  6 - add any name to your site
  7- follow the UI steps and select all availables options, click next till finished
  
+ 
+ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
+  ####################### Adding vulnerabilities check on maven or gradle ####################################
+
+ https://blog.adamgamboa.dev/adding-vulnerabilities-check-on-maven-or-gradle/
+ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
