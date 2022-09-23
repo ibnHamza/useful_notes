@@ -151,3 +151,9 @@ encrypt.bat input="key_to_be_encrypted" password=password_encrypt_key ivGenerato
  https://www.ilovepdf.com/
  
  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
+  ############## The most advanced IntelliJ plugin for managing your JPA data model and beyond  ##############
+ 
+ https://www.jpa-buddy.com/get/
+ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
