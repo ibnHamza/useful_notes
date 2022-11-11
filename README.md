@@ -157,3 +157,16 @@ encrypt.bat input="key_to_be_encrypted" password=password_encrypt_key ivGenerato
  https://www.jpa-buddy.com/get/
  
  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
+ ####################### dump heap ####################################
+ 
+ - go to your JAVA_HOME if it's not set or open terminal dirctly, and paste below command after update it
+ 
+ jmap -dump:live,format=b,file=/file/to/path/dump.hprof <pid>
+ 
+ - For dump heap analyzing , use MAT (Eclipse Memory Analyzer) https://www.eclipse.org/mat/
+ 
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  
