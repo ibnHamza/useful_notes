@@ -170,3 +170,9 @@ encrypt.bat input="key_to_be_encrypted" password=password_encrypt_key ivGenerato
  
   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
   
+ ####################### A free real-time log file monitoring tool #######################
+
+
+  https://www.baremetalsoft.com/baretail/
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  
