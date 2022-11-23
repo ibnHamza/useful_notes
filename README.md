@@ -175,4 +175,10 @@ encrypt.bat input="key_to_be_encrypted" password=password_encrypt_key ivGenerato
 
   https://www.baremetalsoft.com/baretail/
    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   
+    ####################### good GC log enabling configuration #######################
+
+-Xlog:gc*,gc+ref=debug,gc+age=trace,gc+heap=debug:file=../path/logs/gc%p%t.log:tags,uptime,time:filecount=10,filesize=10m
+
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
   
