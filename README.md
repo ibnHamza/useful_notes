@@ -181,4 +181,10 @@ encrypt.bat input="key_to_be_encrypted" password=password_encrypt_key ivGenerato
 -Xlog:gc*,gc+ref=debug,gc+age=trace,gc+heap=debug:file=../path/logs/gc%p%t.log:tags,uptime,time:filecount=10,filesize=10m
 
    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
+   ####################### Java Platform, Standard Edition Troubleshooting Guide #######################
+ 
+ https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/index.html
+ https://docs.oracle.com/javase/9/troubleshoot/toc.htm
   
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
