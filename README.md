@@ -188,3 +188,18 @@ encrypt.bat input="key_to_be_encrypted" password=password_encrypt_key ivGenerato
  https://docs.oracle.com/javase/9/troubleshoot/toc.htm
   
  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ ####################### WSL set the resource limit (RAM,CPU) #######################
+ to prevent OS resources high consumption by WSL use below in Windows
+ open powershell
+ type wsl --shutdown
+ switch the window and go to ~/user-name/
+ edit/create .wslconfig
+ paste below code and save it
+ [wsl2]
+memory=5GB
+
+**** switch back to powershel land type wsl
+press enter and go u r WSL image like Ubuntu and type in terminal <free>
+check the new limit
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
