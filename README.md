@@ -202,4 +202,10 @@ memory=5GB
 press enter and go u r WSL image like Ubuntu and type in terminal <free>
 check the new limit
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
- 
+####################### upload file to S3 on localstack using AWS CLI #######################
+ aws --cli-connect-timeout 60 --cli-read-timeout 60 --endpoint-url http://localhost:4566 s3api put-object --bucket local-k24-invoices --key folder/nested/another/538731112-2023-110000.pdf --body 538731112-2023-110000.pdf
+// this command shoudl be execute it from the same folder tha thave the pdf/any file that you plan to put on S3
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+####################### list S3 buckets on localstack using AWS CLI #######################
+  aws --cli-connect-timeout 60 --cli-read-timeout 60 --endpoint-url http://localhost:4566 s3 ls
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
